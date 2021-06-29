@@ -45,10 +45,6 @@ public class Nguoi {
 
     @Override
     public String toString() {
-        return "Nguoi" +','+
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", gender='" + gender + '\'' +
-                ", phone=" + phone ;
+        return "Nguoi" +','+ name  + ','+ age + ','+ gender + ','+ phone;
     }
 }
